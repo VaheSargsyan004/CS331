@@ -1,44 +1,35 @@
-# Ignore compiled executables
+#Ignore all executables
 *.exe
-*/task*
-*/main
-*/square_prog
-*/problem
-*/p
-*/w
+**/*.exe
+**/main
+**/square_prog
+**/problem
+**/task*
+**/p
+**/w
 
-# Ignore object files
+# Ignore all object files
 *.o
+**/*.o
 
-# Ignore temporary or backup files
+# Ignore backup or temporary files
 *.save
 *.cy
-
-# Ignore text files not needed in repo
-build.txt
-dest.txt
-source.txt
-noratus.txt
-
-# Ignore any temp/hidden files
 *.log
 *.tmp
 *.out
 *.bak
+**/*.save
+**/*.cy
+**/*.log
+**/*.tmp
+**/*.out
+**/*.bak
 
-# Ignore compiled binaries in subdirectories
-HW3/
-HW4/
-HW5/
-HW6/
-HW7/
-HW8/
-
-# But keep source code (.c) files
-!HW3/**/*.c
-!HW4/**/*.c
-!HW5/**/*.c
-!HW6/**/*.c
-!HW7/**/*.c
-!HW8/**/*.c
+# Ignore unnecessary text/build files
+build.txt
+dest.txt
+source.txt
+noratus.txt
+class/
 
